@@ -7,7 +7,7 @@
     }
     
     body {
-    font-family: cursive;
+    /*font-family: cursive;*/
     }
     
     a {
@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: teal;
+    background-color: rgb(42, 48, 135);
     color: #fff;
 }
     
