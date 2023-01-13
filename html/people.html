@@ -7,10 +7,12 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 250px;
+  display: inline;
 }
 
 div.gallery:hover {
   border: 3px solid rgb(109, 4, 4);
+  margin: 2px;
 }
 
 div.gallery img {
@@ -19,12 +21,18 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
+  padding: 10px;
+  padding-bottom: initial;
+  text-align: left;
 }
+
+
+
 </style>
 </head>
 <body>
+  <div class="all">
+  
   <div class="gallery">
     <a target="_blank" href="img_5terre.jpg">
       <img src="../RiverCityBW/cynthiajordan.jpeg" alt="Cynthia Jordan" width="600" height="400">
@@ -50,7 +58,7 @@ div.desc {
     <a target="_blank" href="img_mountains.jpg">
       <img src="../RiverCityBW/marcusdaryladams.jpeg" alt="Marcus Daryl Adams" width="600" height="400">
     </a>
-    <div class="desc">Marcus Adams - Executive Vice President, Strategic Initiatives & President, Affordable Mortgage Finance Corporation.</div>
+    <div class="desc">Marcus Adams - Exec VP, Strategic Initiatives & President, Affordable Mortgage Finance Corp.</div>
   </div>
 
   <div class="gallery">
@@ -87,7 +95,8 @@ div.desc {
     </a> 
     <div class="desc">Add a description of the image here</div>
   </div>
-
+  
+</div>
   
 
  
