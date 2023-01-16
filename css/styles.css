@@ -38,11 +38,12 @@ h2 {
     font-size: 40px; 
     font-weight: 100;
     display: flex;
+    line-height: 30px;
 }
 .title1 {
     color: var(--cranberry);
     font-family: Verdana;
-    font-size: 15px; 
+    font-size: 12px; 
 }
 
 .freddie {
