@@ -38,7 +38,7 @@ h2 {
     font-size: 40px; 
     font-weight: 100;
     display: flex;
-    line-height: 30px;
+    line-height: 40px;
 }
 .title1 {
     color: var(--cranberry);
