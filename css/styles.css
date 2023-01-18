@@ -119,10 +119,57 @@ h2 {
     }
 
    .bottom {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content:center;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: var(--frenchblue);
     color: #fff;
+    float: center;
    }
+
+   button {
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    border: 2px solid var(--cranberry); 
+    transition-duration: 0.4s;
+    width: 200px;
+    height:50px;
+   }
+   button:hover {
+    background-color: var(--cranberry); /* Green */
+    color: white;
+  }
+
+
+  /*Table*/
+
+ table {
+    width: 700px;
+    border-collapse: collapse;
+ }
+
+ th {
+    padding: 15px;
+    padding-right:50px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: var(--cranberry);
+    color: white;
+ }
+ 
+ td {
+    padding: 15px;
+    padding-left:50px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+ }
+
+  tr:not(:first-child):hover{
+    background-color: var(--cranberry);
+    opacity: 50%;
+    color: white;
+    font-style: italic;
+ }
+

@@ -21,7 +21,7 @@
           <li><a href="index.html">HOME</a></li>
           <li><a href="html/why.html">WHY RIVERCITY</a></li>
           <li><a href="html/people.html">THE TEAM</a></li>
-          <li class="services"><a href="html/services.html">SERVICES</a>
+          <li class="services"><a href="html/services.html">FUTURE SERVICES</a>
             <!-- DROPDOWN MENU -->
                 <ul class="dropdown">
                   <li><a href="html/servicesCB.html">Community Bank</a></li>
@@ -63,25 +63,26 @@
     <br>  
     
     <div class = "bottom">
-      <h2>Want to learn more?</h2>
+      <h2>Want to learn more?<br></h2>
       <div class = "buttons">
-        <br>
-        <li><a href="html/customers.html">WHY RIVERCITY</a></li>
-        <li><a href="html/contact.html">LET'S GET IN TOUCH</a></li>
+        <div>
+        <button><li><a href="html/why.html">WHY RIVERCITY</a></li></button>
+        <button><li><a href="html/contact.html">LET'S GET IN TOUCH</a></li></button>
+      </div>
       </div>
     </div>
     
-  </div>
   
-  <div>
+  
+  <div style="position:absolute; width:200px; height:200px;">
     <canvas id="myChart"></canvas>
-  </div>
   
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" ></script>
   
   <script>
     const ctx = document.getElementById('myChart');
-  
+    
     new Chart(ctx, {
       type: 'doughnut',
       data: {
@@ -100,6 +101,8 @@
 });
 
   </script>
+</div>
+</div>
 </body>
 
 </html>
