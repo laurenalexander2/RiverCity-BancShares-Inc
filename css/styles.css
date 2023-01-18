@@ -146,7 +146,7 @@ h2 {
   /*Table*/
 
  table {
-    width: 700px;
+    width: 900px;
     border-collapse: collapse;
  }
 
@@ -161,7 +161,7 @@ h2 {
  
  td {
     padding: 15px;
-    padding-left:50px;
+    padding-right:50px;
     text-align: left;
     border-bottom: 1px solid #ddd;
  }
