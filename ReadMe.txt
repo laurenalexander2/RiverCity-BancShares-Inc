@@ -1,4 +1,4 @@
-Informational website for RiverCity BancShares Inc.
+Informational website for RiverCity BancShares Inc. **In Progress**
 
 Important HTML files:
 - Homepage: index.html
