@@ -21,14 +21,8 @@
           <li><a href="index.html">HOME</a></li>
           <li><a href="html/why.html">WHY RIVERCITY</a></li>
           <li><a href="html/people.html">TEAM</a></li>
-          <li class="services"><a href="html/services.html">FUTURE SERVICES</a>
-            <!-- DROPDOWN MENU -->
-                <ul class="dropdown">
-                  <li><a href="html/servicesCB.html">Community Bank</a></li>
-                  <li><a href="html/servicesAHV.html">Affordable Housing Ventures</a></li>
-                </ul>
-            </li>
-          <li><a href="html/investors.html">FOR INVESTORS</a></li>
+          <li class="services"><a href="html/services.html">SERVICES</a></li>
+          <li><a href="html/investors.html">INVESTORS</a></li>
             
           <li><a href="html/contact.html">CONTACT</a></li>
         </div>
@@ -39,13 +33,37 @@
   <div class="page"> 
 
     <h2>We put the financial focus back on YOU, the community.</h2>
-
+    <br>  
+    <br>  
+    <br>  
     <br>
     <br>  
     <br>  
-    <br>    
+    <br>  
+    <br>
+    <br>
+    <br>  
+    <br>  
+    <br>  
+    <br> 
+    <h2>Did you know?</h2>
+    <div style="position:relative; width:300px; height:300px;">
+      <canvas id="myChart1">
+      </canvas>
+    
+      <canvas id="myChart2">
+      </canvas>
+
+      <canvas id="myChart3">
+      </canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" ></script>
+    
+    <script src = "script.js"></script>
+  </div>
+  <div class = "label">hi</div>
+  
     <a href="html/why.html"><div class = "box">
-    <h2>Our Mission</h2>
+    <h2>Why are We Here?</h2>
       <li>Click here to learn about our mission: Financial Inclusion and Access for Everyone</li>
     </div></a>
     <br>  
@@ -131,34 +149,7 @@
     
   
   
-  <div style="position:absolute; width:200px; height:200px;">
-    <canvas id="myChart"></canvas>
   
-  
-  <script src="https://cdn.jsdelivr.net/npm/chart.js" ></script>
-  
-  <script>
-    const ctx = document.getElementById('myChart');
-    
-    new Chart(ctx, {
-      type: 'doughnut',
-      data: {
-      labels: ['Red', 'Blue','Yellow'],
-      datasets: [{
-        label: 'My First Dataset',
-        data: [300, 50, 100],
-        backgroundColor: [
-        'rgb(255, 99, 132)',
-        'rgb(54, 162, 235)',
-        'rgb(255, 205, 86)'
-        ],
-      hoverOffset: 4,
-    }],
-}
-});
-
-  </script>
-</div>
 </div>
 </body>
 

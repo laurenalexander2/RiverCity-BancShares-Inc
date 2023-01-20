@@ -173,3 +173,8 @@ h2 {
     font-style: italic;
  }
 
+ .label {
+    background-color: var(--cranberry);
+    float: right;
+ }
+
