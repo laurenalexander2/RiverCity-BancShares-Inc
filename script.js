@@ -24,7 +24,7 @@ const ctx = document.getElementById('myChart1');
     type: 'doughnut',
     data: {
     datasets: [{
-      data: [42, 58],
+      data: [19, 71],
       backgroundColor: [
       'rgb(255, 99, 132)',
       'rgb(54, 162, 235)',
@@ -44,7 +44,7 @@ const ctz = document.getElementById('myChart3');
     type: 'doughnut',
     data: {
     datasets: [{
-      data: [42, 58],
+      data: [16, 84],
       backgroundColor: [
       'rgb(255, 99, 132)',
       'rgb(54, 162, 235)',
