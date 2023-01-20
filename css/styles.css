@@ -25,11 +25,20 @@
 .box {
     background-color: var(--frenchblue);
     opacity: 50%;
-    padding: 50px;
-    width:fit-content;
+    padding: 30px;
+    width: fit-content;
     color: white
 }
 
+.imgbox{
+    background-color: var(--frenchblue);
+    opacity: 100%;
+    padding: 50px;
+    height:400px;
+    width: auto;
+    color: white;
+    margin-right: 0px;
+}
 .box:hover {
     transform: translateY(-10px);
 }
@@ -48,6 +57,7 @@ h2 {
 
 .freddie {
     float: right;
+    height: 300px;
 }
 .navbar {
     display: flex;
@@ -206,6 +216,5 @@ h2 {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% {color: rgb(0, 0, 0); }
 }
 
