@@ -175,6 +175,15 @@ h2 {
 
  .label {
     background-color: var(--cranberry);
-    float: right;
+    display: inline;
+    font-size: 20px;
+ }
+ 
+
+ .chartbox {
+    width:100px; 
+    height:100px;
+    float: left;
+    display: block;
  }
 
