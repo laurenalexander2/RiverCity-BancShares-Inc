@@ -1,3 +1,4 @@
+@import "compass/css3";
 /* UTILITIES */
 * {
         box-sizing: border-box;
@@ -25,9 +26,9 @@
 .box {
     background-color: var(--frenchblue);
     opacity: 50%;
-    padding: 30px;
+    padding: 50px;
     width: fit-content;
-    color: white
+    color: white;
 }
 
 .imgbox{

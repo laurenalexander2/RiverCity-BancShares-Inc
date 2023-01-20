@@ -57,3 +57,4 @@ const ctz = document.getElementById('myChart3');
   }
 }
 });
+
