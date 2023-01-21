@@ -1,17 +1,24 @@
-@import "compass/css3";
 /* UTILITIES */
 * {
         box-sizing: border-box;
     
     }
     :root {
-        --frenchblue:  rgb(42, 48, 135);
+        --frenchblue:  rgb(85,114,200);
         --cranberry: rgb(145, 46, 46);
       }  
     body {
     font-family: Tahoma;
+    font-size: 20px;
     }
-    
+    .title2{
+        text-align: center;
+        font-family: Times;
+        font-size: 40px; 
+        font-weight: 100;
+        line-height: 50px;
+
+    }
  .page {
     margin: 50px;
  }   
@@ -25,7 +32,7 @@
     }
 .box {
     background-color: var(--frenchblue);
-    opacity: 50%;
+    opacity: 1;
     padding: 50px;
     width: fit-content;
     color: white;
@@ -64,11 +71,12 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-height: 150px;
     padding: 20px;
     background-color: var(--frenchblue);
     color: #fff;
 }
-    
+
     .nav-links a {
         color: #fff;
     }
@@ -77,6 +85,11 @@ h2 {
     .logo {
         font-size: 32px;
         font-family: Times;
+        
+        display: flex;
+ align-items: center;
+ justify-content: center;
+
     }
     
     /* NAVBAR MENU */
@@ -130,14 +143,18 @@ h2 {
     }
 
    .bottom {
-    align-items: center;
     justify-content:center;
-    padding-left: 200px;
-    padding-right: 200px;
-    background-color: var(--frenchblue);
+    text-align: center;
+    align-items: center;
+    position: absolute;
     color: #fff;
-    float: center;
+    width: 100%;
+    margin-left: -55px;
    }
+   .bottom h2 {
+    text-align: center;
+    justify-content:center;
+  }
 
    button {
     border-radius: 12px;
