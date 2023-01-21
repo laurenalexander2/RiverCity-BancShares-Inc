@@ -73,27 +73,31 @@ h2 {
     justify-content: space-between;
     max-height: 150px;
     padding: 20px;
+    background-color: #fff;
+    color: black;
+}
+.navbar:hover{
     background-color: var(--frenchblue);
     color: #fff;
+    transition: 0.5s ease;
 }
-
     .nav-links a {
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
     
     /* LOGO */
     .logo {
         font-size: 32px;
         font-family: Times;
-        
         display: flex;
- align-items: center;
- justify-content: center;
+        align-items: center;
+        justify-content: center;
 
     }
     
     /* NAVBAR MENU */
     .menu {
+        color: black;
         display: flex;
         gap: 1em;
         font-size: 18px;
@@ -111,37 +115,6 @@ h2 {
     
     /* DROPDOWN MENU */
     
-    .services {
-        position: relative; 
-    }
-    
-    .dropdown {
-        background-color: rgb(1, 139, 139);
-        padding: 1em 0;
-        position: absolute; /*WITH RESPECT TO PARENT*/
-        display: none;
-        border-radius: 8px;
-        top: 35px;
-    }
-    
-    .dropdown li + li {
-        margin-top: 10px;
-    }
-    
-    .dropdown li {
-        padding: 0.5em 1em;
-        width: 8em;
-        text-align: center;
-    }
-    
-    .dropdown li:hover {
-        background-color: #4c9e9e;
-    }
-    
-    .services:hover .dropdown {
-        display: block;
-    }
-
    .bottom {
     justify-content:center;
     text-align: center;
