@@ -8,9 +8,9 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #ffffff;
     text-align: left;
-    background-color: #fff;
+    background-color:rgb(85,114,200);
     padding: 30px;
     padding-bottom: 10px;
     border: 1px solid #ced4da;
@@ -42,7 +42,7 @@
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     background-clip: padding-box;
     border: 1px solid #ced4da;
     outline: none;
@@ -80,7 +80,7 @@ label.fcf-label {
 }
 
 .fcf-credit a:hover {
-    color: #0056b3;
+    color: rgb(85,114,200);
     text-decoration: underline;
 }
 
@@ -121,21 +121,21 @@ label.fcf-label {
 }
 
 .fcf-btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color:rgb(0, 0, 0);
+    background-color: white;
+    border-color: rgb(85,114,200);
 }
 
 .fcf-btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: rgb(85,114,200);
+    border-color: rgb(85,114,200);
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: rgb(85,114,200);
+    border-color: rgb(85,114,200);
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 

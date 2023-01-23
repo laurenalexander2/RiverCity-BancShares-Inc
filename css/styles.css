@@ -10,6 +10,7 @@
     body {
     font-family: Tahoma;
     font-size: 20px;
+    padding: 20px;
     }
     .title2{
         text-align: center;
@@ -19,9 +20,7 @@
         line-height: 50px;
 
     }
- .page {
-    margin: 50px;
- }   
+ 
     a {
 
     text-decoration: none;
@@ -129,7 +128,7 @@ h2 {
     position: absolute;
     color: #fff;
     width: 100%;
-    margin-left: -55px;
+    margin-left: -30px;
    }
    .bottom h2 {
     text-align: center;
@@ -204,7 +203,17 @@ h2 {
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
+.math{
+    display: inline-flex;
+    max-width: 28%;
+    padding:1%;
+  }
 
+  .equation{
+    align-items: center;
+    justify-content: space-between;
+    width:auto;
+  }
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
