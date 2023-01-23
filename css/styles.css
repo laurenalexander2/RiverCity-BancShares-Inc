@@ -34,6 +34,9 @@
     background-color: var(--frenchblue);
     opacity: 1;
     padding: 50px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-right: 0px;
     width: fit-content;
     color: white;
 }
@@ -42,6 +45,9 @@
     background-color: var(--frenchblue);
     opacity: 100%;
     padding: 50px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-right: 0px;
     height:400px;
     width: auto;
     color: white;
@@ -79,12 +85,15 @@ h2 {
 .navbar:hover{
     background-color: var(--frenchblue);
     color: #fff;
-    transition: 0.5s ease;
+    transition: 1s ease;
 }
     .nav-links a {
         color: rgb(0, 0, 0);
     }
     
+    .nav-links a:hover{
+        color: white;
+    }
     /* LOGO */
     .logo {
         font-size: 32px;
@@ -97,16 +106,14 @@ h2 {
     
     /* NAVBAR MENU */
     .menu {
-        color: black;
         display: flex;
         gap: 1em;
         font-size: 18px;
     }
     
     .menu li:hover {
-        background-color: #4c9e9e;
         border-radius: 5px;
-        transition: 0.3s ease;
+        color: white;
     }
     
     .menu li {
@@ -133,13 +140,13 @@ h2 {
     border-radius: 12px;
     background-color: white;
     color: black;
-    border: 2px solid var(--cranberry); 
+    border: 2px solid white; 
     transition-duration: 0.4s;
     width: 200px;
     height:50px;
    }
    button:hover {
-    background-color: var(--cranberry); /* Green */
+    background-color: var(--frenchblue); /* Green */
     color: white;
   }
 

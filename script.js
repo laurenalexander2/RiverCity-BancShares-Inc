@@ -6,8 +6,8 @@ const ctx = document.getElementById('myChart1');
         datasets: [{
           data: [42, 58],
           backgroundColor: [
-          'rgb(255, 99, 132)',
-          'rgb(54, 162, 235)',
+          'rgb(145, 46, 46)',
+          'rgb(220,220,220)',
           'rgb(255, 205, 86)'
           ],
         
@@ -26,8 +26,8 @@ const ctx = document.getElementById('myChart1');
     datasets: [{
       data: [19, 71],
       backgroundColor: [
-      'rgb(255, 99, 132)',
-      'rgb(54, 162, 235)',
+        'rgb(145, 46, 46)',
+        'rgb(220,220,220)',
       'rgb(255, 205, 86)'
       ],
     
@@ -46,8 +46,8 @@ const ctz = document.getElementById('myChart3');
     datasets: [{
       data: [16, 84],
       backgroundColor: [
-      'rgb(255, 99, 132)',
-      'rgb(54, 162, 235)',
+        'rgb(145, 46, 46)',
+        'rgb(220,220,220)',
       'rgb(255, 205, 86)'
       ],
     
