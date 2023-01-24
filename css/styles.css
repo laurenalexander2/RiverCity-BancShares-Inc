@@ -40,6 +40,19 @@
     color: white;
 }
 
+
+.boximg {
+    background-color: var(--frenchblue);
+    opacity: 1;
+    padding: 50px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-right: 0px;
+    width: fit-content;
+    color: white;
+}
+
+
 .imgbox{
     background-color: var(--frenchblue);
     opacity: 100%;
@@ -50,15 +63,14 @@
     height:400px;
     width: auto;
     color: white;
-    margin-right: 0px;
 }
 .box:hover {
     transform: translateY(-10px);
 }
 h2 {
-    font-family: Times;
-    font-size: 40px; 
-    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px; 
+    font-weight: 500;
     display: flex;
     line-height: 50px;
 }
@@ -71,6 +83,7 @@ h2 {
 .freddie {
     float: right;
     height: 300px;
+    margin: 10px;
 }
 .navbar {
     display: flex;
@@ -95,8 +108,8 @@ h2 {
     }
     /* LOGO */
     .logo {
-        font-size: 32px;
-        font-family: Times;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -153,7 +166,7 @@ h2 {
   /*Table*/
 
  table {
-    width: 900px;
+    width: 1000px;
     border-collapse: collapse;
  }
 
@@ -182,6 +195,7 @@ h2 {
 
  .label {
     display: inline;
+    font-size: 20px;
  }
  
 
@@ -214,6 +228,9 @@ h2 {
     justify-content: space-between;
     width:auto;
   }
+
+ 
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
