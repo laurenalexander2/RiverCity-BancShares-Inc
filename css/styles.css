@@ -45,9 +45,9 @@
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 350px;
-    margin-bottom: 350px;
+    justify-content:space-evenly;
+    margin-top: 250px;
+    margin-bottom: 250px;
     position: relative;
     width: 100%;
   }
@@ -64,7 +64,7 @@
     margin-left: 20px;;
     width: fit-content;
     color: white;
-    flex-basis: 60%
+    flex-basis: 70%
   
   }
 
@@ -89,12 +89,11 @@ h2 {
     font-size: 50px; 
     font-weight: 500;
     display: flex;
-    line-height: 50px;
 }
 .title1 {
     color: var(--cranberry);
     font-family: Verdana;
-    font-size: 12px; 
+    font-size: 20px; 
 }
 
 .freddie {
@@ -224,12 +223,15 @@ h2 {
  }
 
 .typewriter h2 {
+    display: flex;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid transparent; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .05em; /* Adjust as needed */
   float: left;
+  font-size: 3.2vw;
+  line-height: 60px;
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -240,6 +242,10 @@ h2 {
     padding:1%;
   }
 
+.math h2{
+    font-size: 3.2vw;
+    line-height: 3.2vw; 
+}
   .equation{
     align-items: center;
     justify-content: space-between;
