@@ -33,24 +33,41 @@
     background-color: var(--frenchblue);
     opacity: 1;
     padding: 50px;
-    margin-top: 250px;
-    margin-bottom: 250px;
+    margin-top: 50px;
+    margin-bottom: 350px;
     margin-right: 0px;
     width: fit-content;
     color: white;
+    float:right;
+    display:block;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 350px;
+    margin-bottom: 350px;
+    position: relative;
+    width: 100%;
+  }
+  .image {
+    max-height: 300px;
+  }
 
-.boximg {
+  .text {
+    font-size: 20px;
     background-color: var(--frenchblue);
     opacity: 1;
     padding: 50px;
-    margin-top: 250px;
-    margin-bottom: 250px;
-    margin-right: 0px;
+    margin-right: 20px;
+    margin-left: 20px;;
     width: fit-content;
     color: white;
-}
+    flex-basis: 60%
+  
+  }
+
 
 
 .imgbox{
