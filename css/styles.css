@@ -12,17 +12,9 @@
     font-size: 20px;
     padding: 20px;
     }
-    .title2{
-        text-align: center;
-        font-family: Times;
-        font-size: 40px; 
-        font-weight: 100;
-        line-height: 50px;
-
-    }
+    
  
     a {
-
     text-decoration: none;
     }
     
@@ -34,7 +26,7 @@
     opacity: 1;
     padding: 50px;
     margin-top: 50px;
-    margin-bottom: 350px;
+    margin-bottom: 250px;
     margin-right: 0px;
     width: fit-content;
     color: white;
@@ -44,7 +36,7 @@
 
 .container {
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content:space-evenly;
     margin-top: 250px;
     margin-bottom: 250px;
@@ -53,37 +45,35 @@
   }
   .image {
     max-height: 300px;
+    padding: 40px;
   }
 
   .text {
     font-size: 20px;
     background-color: var(--frenchblue);
     opacity: 1;
-    padding: 50px;
+    padding: 40px;
     margin-right: 20px;
-    margin-left: 20px;;
+    margin-left: 20px;
     width: fit-content;
     color: white;
     flex-basis: 70%
+  }
+  .cite{
+    margin-top: 50px;
+    background-color: white;
+    color: grey;
+    font-size: 12px;
+    float: left;
+    display:block;
+    position: relative;
+    width: inherit;
+    margin-right: 20px;
   
   }
 
 
 
-.imgbox{
-    background-color: var(--frenchblue);
-    opacity: 100%;
-    padding: 50px;
-    margin-top: 250px;
-    margin-bottom: 250px;
-    margin-right: 0px;
-    height:400px;
-    width: auto;
-    color: white;
-}
-.box:hover {
-    transform: translateY(-10px);
-}
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px; 
@@ -96,11 +86,6 @@ h2 {
     font-size: 20px; 
 }
 
-.freddie {
-    float: right;
-    height: 300px;
-    margin: 10px;
-}
 .navbar {
     display: flex;
     align-items: center;
