@@ -11,6 +11,7 @@
     font-family: Tahoma;
     font-size: 20px;
     padding: 20px;
+    /* color: white ... this turns the title white, but I don't want the body text to be white */
     }
     
  
@@ -87,25 +88,46 @@ h2 {
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-height: 150px;
-    padding: 20px;
-    background-color: #fff;
-    color: black;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
 }
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
 .navbar:hover{
     background-color: var(--frenchblue);
     color: #fff;
     transition: 1s ease;
+    text-align: center;
 }
     .nav-links a {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-align: center;
     }
     
     .nav-links a:hover{
         color: white;
+        text-align: center;
     }
     /* LOGO */
     .logo {
@@ -122,8 +144,15 @@ h2 {
         display: flex;
         gap: 1em;
         font-size: 18px;
+        justify-content:center;
     }
-    
+    /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .menu {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
     .menu li:hover {
         border-radius: 5px;
         color: white;
