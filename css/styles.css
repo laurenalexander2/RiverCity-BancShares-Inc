@@ -1,3 +1,10 @@
+/* MAIN TITLE */
+
+.page-title {
+  color: white
+}
+
+
 /* UTILITIES */
 * {
         box-sizing: border-box;
@@ -136,6 +143,7 @@ h2 {
         display: flex;
         align-items: center;
         justify-content: center;
+        color: white;
 
     }
     
