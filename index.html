@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <!-- Include Bootstrap CSS file from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title class="page-title">RiverCity Bancshares</title>
@@ -17,7 +18,6 @@
     <nav class="navbar">
         <!-- LOGO -->
         <div class="logo"><img src="images/logo2.png" height="160">RiverCity Bancshares</div>
-      
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
         <!-- NAVIGATION MENUS -->
@@ -27,11 +27,9 @@
           <li><a href="html/people.html">TEAM</a></li>
           <li class="services"><a href="html/services.html">SERVICES</a></li>
           <li><a href="html/investors.html">INVESTORS</a></li>
-            
           <li><a href="html/contact.html">CONTACT</a></li>
         </div>
         </ul>
-
     </nav>
 
   <div class="page"> 
@@ -80,34 +78,40 @@
       </a>
     </div>
 
-    <div class="container">
+    <section class="team-container">
+   <!--    <header>
+        <h2>The Team</h2>
+      </header> -->
       <div data-aos="fade-up" data-aos-duration="1000">
-      <a href="html/people.html">  
-        <div class = "text">
-          <h2>The Team</h2>
-          <li>Click to meet the industry experts behind RiverCity Bancshares.</li>
-        </div>
-      </a>
-    </div>
-      <div class="image">
-        <img src="images/people.png" alt="People" height="200px">
-      </div>  
-    </div>   
-
-
-  <div class="container">
-    <div class="image">
-      <img src="images/stock1.jpeg" height="300px">
-    </div> 
-    <div data-aos="fade-up" data-aos-duration="1000">
-    <a href="html/services.html"> 
-      <div class = "text">
-        <h2>What We Will Offer</h2>
-          <li>Click to explore our planned services and banking solutions.</li>
+        <a href="html/people.html" class="team-link">  
+          <article class="team-text">
+            <ul>
+              <li>Click to meet the industry experts behind RiverCity Bancshares.</li>
+            </ul>
+          </article>
+        </a>
       </div>
-    </a>
-  </div> 
-</div>    
+      <div class="team-image">
+        <img src="images/people.png" alt="People" class="img-fluid" height="200px">
+      </div>  
+    </section>
+    
+
+    <div class="container">
+      <div class="image">
+        <img src="images/stock1.jpeg" alt="Stock Image" style="max-width: 100%; height: auto;">
+      </div>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <a href="html/services.html"> 
+          <div class="text">
+            <h2>What We Will Offer</h2>
+            <ul>
+              <li>Click to explore our planned services and banking solutions.</li>
+            </ul>
+          </div>
+        </a>
+      </div> 
+    </div>
   
 <div class="container">
 <div data-aos="fade-up" data-aos-duration="1000">
@@ -124,8 +128,6 @@
   
 </div>  
 
-
- 
 <br>
 <br>
 <br>
