@@ -1,302 +1,253 @@
 /* UTILITIES */
 * {
-        box-sizing: border-box;
-    
-    }
-    :root {
-        --frenchblue:  rgb(85,114,200);
-        --cranberry: rgb(145, 46, 46);
-      }  
-    body {
-    font-family: Tahoma;
-    font-size: 20px;
-    padding: 20px;
-    /* color: white ... this turns the title white, but I don't want the body text to be white */
-    }
-    
- 
-    a {
-    text-decoration: none;
-    }
-    
-    li {
-    list-style: none;
-    }
-.box {
-    background-color: var(--frenchblue);
-    opacity: 1;
-    padding: 50px;
-    margin-top: 50px;
-    margin-bottom: 250px;
-    margin-right: 0px;
-    width: fit-content;
-    color: white;
-    float:right;
-    display:block;
+  box-sizing: border-box;
+
+}
+:root {
+  --frenchblue:  rgb(85,114,200);
+  --cranberry: rgb(145, 46, 46);
+}  
+body {
+font-family: Tahoma;
+font-size: 20px;
+padding: 20px;
 }
 
 
+a {
+text-decoration: none;
+}
+
+li {
+list-style: none;
+}
+.box {
+background-color: var(--frenchblue);
+opacity: 1;
+padding: 50px;
+margin-top: 50px;
+margin-bottom: 250px;
+margin-right: 0px;
+width: fit-content;
+color: white;
+float:right;
+display:block;
+}
 
 .container {
-    display: flex;
-    align-items:center;
-    justify-content:space-evenly;
-    margin-top: 250px;
-    margin-bottom: 250px;
-    position: relative;
-    width: 100%;
-    flex-direction: column;
-  }
-  .image {
-    max-height: 300px;
-    padding: 40px;
-    text-align: center;
-  }
+display: flex;
+align-items:center;
+justify-content:space-evenly;
+margin-top: 250px;
+margin-bottom: 250px;
+position: relative;
+width: 100%;
+/* This one change makes it surprisingly responsive */
+flex-direction: column;
+}
+.image {
+max-height: 300px;
+padding: 40px;
+}
 
-  .text {
-    font-size: 20px;
-    background-color: var(--frenchblue);
-    opacity: 1;
-    padding: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
-    width: fit-content;
-    color: white;
-    flex-basis: 70%
-    text-align: center;
-  }
-  .cite{
-    margin-top: 50px;
-    background-color: white;
-    color: grey;
-    font-size: 12px;
-    float: left;
-    display:block;
-    position: relative;
-    width: inherit;
-    margin-right: 20px;
-  
-  }
+.text {
+font-size: 20px;
+background-color: var(--frenchblue);
+opacity: 1;
+padding: 40px;
+margin-right: 20px;
+margin-left: 20px;
+width: fit-content;
+color: white;
+flex-basis: 70%
+}
+.cite{
+margin-top: 50px;
+background-color: white;
+color: grey;
+font-size: 12px;
+float: left;
+display:block;
+position: relative;
+width: inherit;
+margin-right: 20px;
 
-  @media only screen and (min-width: 768px) {
-    .container {
-      flex-direction: row;
-      align-items: center;
-    }
-    
-    .image {
-      width: 50%;
-      text-align: left;
-    }
-    
-    .text {
-      width: 50%;
-      text-align: left;
-    }
-  }
+}
+
+
 
 h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px; 
-    font-weight: 500;
-    display: flex;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px; 
+font-weight: 500;
+display: flex;
 }
 .title1 {
-    color: var(--cranberry);
-    font-family: Verdana;
-    font-size: 20px; 
+color: var(--cranberry);
+font-family: Verdana;
+font-size: 20px; 
 }
 
 .navbar {
-  overflow: hidden;
-  background-color: #333;
-  text-align: center;
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-height: 150px;
+padding: 20px;
+background-color: #fff;
+color: black;
 }
-
-/* Navbar links */
-.topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-    text-align: center;
-  }
-}
-
-
-
 .navbar:hover{
-    background-color: var(--frenchblue);
-    color: #fff;
-    transition: 1s ease;
-    text-align: center;
+background-color: var(--frenchblue);
+color: #fff;
+transition: 1s ease;
 }
-    .nav-links a {
-        color: rgb(255, 255, 255);
-        text-align: center;
-    }
-    
-    .nav-links a:hover{
-        color: white;
-        text-align: center;
-    }
-    /* LOGO */
-    .logo {
-        font-size: 40px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
+.nav-links a {
+  color: rgb(0, 0, 0);
+}
 
-    }
-    
-    /* NAVBAR MENU */
-    .menu {
-        display: flex;
-        gap: 1em;
-        font-size: 18px;
-        justify-content:center;
-    }
-    /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .menu {
-    float: none;
-    width: 100%;
-    text-align: center;
-  }
-    .menu li:hover {
-        border-radius: 5px;
-        color: white;
-    }
-    
-    .menu li {
-        padding: 5px 14px;
-    }
-    
-    /* DROPDOWN MENU */
-    
-   .bottom {
-    justify-content:center;
-    text-align: center;
-    align-items: center;
-    position: absolute;
-    color: #fff;
-    width: 100%;
-    margin-left: -30px;
-   }
-   .bottom h2 {
-    text-align: center;
-    justify-content:center;
-  }
+.nav-links a:hover{
+  color: white;
+}
+/* LOGO */
+.logo {
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-   button {
-    border-radius: 12px;
-    background-color: white;
-    color: black;
-    border: 2px solid white; 
-    transition-duration: 0.4s;
-    width: 200px;
-    height:50px;
-   }
-   button:hover {
-    background-color: var(--frenchblue); /* Green */
-    color: white;
-  }
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  border-radius: 5px;
+  color: white;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+
+.bottom {
+justify-content:center;
+text-align: center;
+align-items: center;
+position: absolute;
+color: #fff;
+width: 100%;
+margin-left: -30px;
+}
+.bottom h2 {
+text-align: center;
+justify-content:center;
+}
+
+button {
+border-radius: 12px;
+background-color: white;
+color: black;
+border: 2px solid white; 
+transition-duration: 0.4s;
+width: 200px;
+height:50px;
+}
+button:hover {
+background-color: var(--frenchblue); /* Green */
+color: white;
+}
 
 
-  /*Table*/
+/*Table*/
 
- table {
-    width: 1000px;
-    border-collapse: collapse;
- }
+table {
+width: 1000px;
+border-collapse: collapse;
+}
 
- th {
-    padding: 15px;
-    padding-right:50px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-    background-color: var(--cranberry);
-    color: white;
- }
- 
- td {
-    padding: 15px;
-    padding-right:50px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
- }
+th {
+padding: 15px;
+padding-right:50px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+background-color: var(--cranberry);
+color: white;
+}
 
-  tr:not(:first-child):hover{
-    background-color: var(--cranberry);
-    opacity: 50%;
-    color: white;
-    font-style: italic;
- }
+td {
+padding: 15px;
+padding-right:50px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
 
- .label {
-    display: inline;
-    font-size: 20px;
- }
- 
+tr:not(:first-child):hover{
+background-color: var(--cranberry);
+opacity: 50%;
+color: white;
+font-style: italic;
+}
 
- .chartbox {
-    width:100px; 
-    height:100px;
-    float: left;
-    display: block;
- }
+.label {
+display: inline;
+font-size: 20px;
+}
+
+
+.chartbox {
+width:100px; 
+height:100px;
+float: left;
+display: block;
+}
 
 .typewriter h2 {
-    display: flex;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid transparent; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .05em; /* Adjust as needed */
-  float: left;
-  font-size: 3.2vw;
-  line-height: 60px;
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+display: flex;
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+border-right: .15em solid transparent; /* The typwriter cursor */
+white-space: nowrap; /* Keeps the content on a single line */
+margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+letter-spacing: .05em; /* Adjust as needed */
+float: left;
+font-size: 3.2vw;
+line-height: 60px;
+animation: 
+typing 3.5s steps(40, end),
+blink-caret .75s step-end infinite;
 }
 .math{
-    display: inline-flex;
-    max-width: 28%;
-    padding:1%;
-  }
+display: inline-flex;
+max-width: 28%;
+padding:1%;
+}
 
 .math h2{
-    font-size: 3.2vw;
-    line-height: 3.2vw; 
+font-size: 3.2vw;
+line-height: 3.2vw; 
 }
-  .equation{
-    align-items: center;
-    justify-content: space-between;
-    width:auto;
-  }
+.equation{
+align-items: center;
+justify-content: space-between;
+width:auto;
+}
 
- 
+
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+from { width: 0 }
+to { width: 100% }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
+from, to { border-color: transparent }
 }
-
